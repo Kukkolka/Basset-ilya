@@ -1,0 +1,8 @@
+<app-loader [isLoading]="isLoading" size="1.5"></app-loader>
+<div [hidden]="isLoading">
+<mat-grid-list [cols]="5" rowHeight="425px">
+    <mat-grid-tile *ngFor="let movie of movies$ | async" class="grid-tile">
+        <app-movie-thumbnail [movie]="movie"></app-movie-thumbnail>
+    </mat-grid-tile>
+</mat-grid-list>
+</div>
