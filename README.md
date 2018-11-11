@@ -1,3 +1,5 @@
+[[https://github.com/Kukkolka/Basset-ilya/blob/master/screenshot.jpg|alt=octocat]]
+
 # Getting started
 
 1. Go to project folder and install dependencies:
