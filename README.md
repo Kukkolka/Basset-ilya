@@ -1,4 +1,4 @@
-Screenshot: https://github.com/Kukkolka/Basset-ilya/blob/master/screenshot.jpg
+![Screenshot](https://github.com/Kukkolka/Basset-ilya/blob/master/screenshot.jpg)
 
 # Getting started
 
