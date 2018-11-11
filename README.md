@@ -1,8 +1,3 @@
-# Basset-Ilya
-
-This project was generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
-version 5.3.0
-
 # Getting started
 
 1. Go to project folder and install dependencies:
@@ -25,6 +20,15 @@ src/                         project source code
 |- app/                      app components
 |  |- core/                  core module (singleton services and single-use components)
 |  |- shared/                shared module  (common components, directives and pipes)
+|  |- about/
+|  |- home/
+|  |  |- movie-search/
+|  |  |  |- search-bar/
+|  |  |  |  |- search-bar.component.*
+|  |  |  |- services/
+|  |  |  |  |- movie-api.service.*
+|  |- shell/
+|  |- about/
 |  |- app.component.*        app root component (shell)
 |  |- app.module.ts          app root module definition
 |  |- app-routing.module.ts  app routes
@@ -70,14 +74,6 @@ Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app 
 any of the source files.
 You should not use `ng serve` directly, as it does not use the backend proxy configuration by default.
 
-## Code scaffolding
-
-Run `npm run generate -- component <name>` to generate a new component. You can also use
-`npm run generate -- directive|pipe|service|class|module`.
-
-If you have installed [angular-cli](https://github.com/angular/angular-cli) globally with `npm install -g @angular/cli`,
-you can also use the command `ng generate` directly.
-
 ## Additional tools
 
 Tasks are mostly based on the `angular-cli` tool. Use `ng help` to get more help or go check out the
@@ -95,8 +91,9 @@ You can also force code formatting by running the command `npm run prettier`.
 
 # What's in the box
 
-The app template is based on [HTML5](http://whatwg.org/html), [TypeScript](http://www.typescriptlang.org) and
+Based on [HTML5](http://whatwg.org/html), [TypeScript](http://www.typescriptlang.org) and
 [Sass](http://sass-lang.com). The translation files use the common [JSON](http://www.json.org) format.
+Angular 7 
 
 #### Tools
 
@@ -141,3 +138,11 @@ Development, build and quality processes are based on [angular-cli](https://gith
 - [Updating dependencies and tools](docs/updating.md)
 - [Using a backend proxy for development](docs/backend-proxy.md)
 - [Browser routing](docs/routing.md)
+
+
+# Basset-Ilya
+
+This project was initially generated with [ngX-Rocket](https://github.com/ngx-rocket/generator-ngx-rocket/)
+version 5.3.0
+
+I will delete this repo after the initial review.
